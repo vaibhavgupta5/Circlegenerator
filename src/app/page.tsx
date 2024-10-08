@@ -5,7 +5,8 @@ function ClickableDiv() {
 
   const [position, setPosition] = useState<{ top: number, left: number }[]>([]);
 
-  const handleClick = (e:any) => {
+  // eslint-disable-next-line no-unused-vars
+  const handleClick = (e: any) => {
     const x = e.clientX;
     const y = e.clientY;
     
